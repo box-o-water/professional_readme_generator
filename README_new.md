@@ -1,3 +1,4 @@
+
 # professional_readme_generator
 
 ![open issues](https://img.shields.io/github/issues-raw/box-o-water/professional_readme_generator)
@@ -9,9 +10,7 @@
 
 Dynamically generate a project README.md file by providing information when prompted via the command-line.
 
-**This README was generated using the professional_readme_generator.**
-
-See the [README_new.md](/README_new.md) for the exact file generated in the preview image below.
+Click [here](https://box-o-water.github.io/professional_readme_generator) to view the professional_readme_generator.
 
 ![preview](/assets/images/professional_readme_generator_preview.png)
 
@@ -27,19 +26,11 @@ See the [README_new.md](/README_new.md) for the exact file generated in the prev
 
 ## Installation
 
-* Install `nvm`
-* Use `nvm` to install `npm` and `node`
-* $ git clone git@github.com:box-o-water/professional_readme_generator.git
-* $ npm install
+* Install `nvm` * Use `nvm` to install `npm` and `node` * $ git clone git@github.com:box-o-water/professional_readme_generator.git * $ npm install
 
 ## Usage
 
-* $ node index.js
-* Answer the prompts
-* A README_new.md file will be created in the project directory
-* Edit the README as needed, breaking out any ` * ` into new lines for bulleted lists
-* Copy the README to your project
-* Tip: update `default` values as desired in the index.js in your clone/fork
+* $ node index.js * Answer the prompts * A README_new.md file will be created in the project directory * Edit the README as needed, breaking out any ` * ` into new lines for bulleted lists * Copy the README to your project * Tip: update `default` values as desired in the index.js in your clone/fork
 
 ## Contributing
 
@@ -62,3 +53,4 @@ N/A
 ## License
 
 Licensed under the [MIT](/LICENSE) license.
+
