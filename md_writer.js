@@ -1,15 +1,17 @@
 const writemd = userInput => {
     return`
-# professional_readme_generator
+# ${userInput.repo_name}
 
-![open issues](https://img.shields.io/github/issues-raw/box-o-water/${userInput.repo_name})
-![closed issues](https://img.shields.io/github/issues-closed-raw/box-o-water/${userInput.repo_name})
+![open issues](https://img.shields.io/github/issues-raw/${userInput.username}/${userInput.repo_name})
+![closed issues](https://img.shields.io/github/issues-closed-raw/${userInput.username}/${userInput.repo_name})
+
+![license](https://img.shields.io/static/v1?label=license&message=${userInput.license.replace(/\s/g, '%20')}&color=blue)
 
 ## Description
 
-Add a description.
+${userInput.description}
 
-Click [here](https://box-o-water.github.io/${userInput.repo_name}) to view the professional_readme_generator.
+Click [here](https://${userInput.username}.github.io/${userInput.repo_name}) to view the ${userInput.repo_name}.
 
 ![preview](/assets/images/${userInput.repo_name}_preview.png)
 
@@ -25,31 +27,33 @@ Click [here](https://box-o-water.github.io/${userInput.repo_name}) to view the p
 
 ## Installation
 
-N/A
+${userInput.installation}
 
 ## Usage
 
-N/A
+${userInput.usage}
 
 ## Contributing
 
-N/A
+${userInput.contributing}
 
 # Tests
 
-N/A
+${userInput.tests}
 
 # Questions
 
-N/A
+Visit my [${userInput.username}](https://github.com/${userInput.username}) profile page.
+
+For any questions about this project, please send an email to <${userInput.email}>.
 
 ## Credits
 
-N/A
+${userInput.credits}
 
 ## License
 
-Licensed under the [MIT](/LICENSE) license.
+Licensed under the [${userInput.license}](/LICENSE) license.
 
 `
 }
