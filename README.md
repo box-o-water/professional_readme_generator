@@ -15,6 +15,8 @@ See the [README_new.md](/README_new.md) for the exact file generated in the prev
 
 ![preview](/assets/images/professional_readme_generator_preview.png)
 
+Click [here](https://watch.screencastify.com/v/VueZHFYWTEvi7ShYMZLu) to watch a video demonstrating the professional_readme_generator.
+
 ## Table of Contents
 
 - [Installation](#installation)
